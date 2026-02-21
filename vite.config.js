@@ -1,12 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev
 export default defineConfig({
-  base: '/MovieDen/', // Must match your repo name exactly
   plugins: [react()],
+  base: '/MovieDen/', 
 })
 
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [react()],
-})
