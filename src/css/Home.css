@@ -61,3 +61,32 @@
   width: 100%;
   box-sizing: border-box;
 }
+
+.hero-section {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), #10141e), 
+                url('https://unsplash.com');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid #e50914; /* Accent color */
+    margin-bottom: 30px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+.hero-content strong {
+    color: #e50914; /* Highlighting the instruction */
+    text-transform: uppercase;
+}
+
