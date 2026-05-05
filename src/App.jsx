@@ -9,7 +9,7 @@ export default function App(){
   return(
     <MovieProvider>
       <NavBar></NavBar>
-      <main clasName = "main-content">
+      <main className = "main-content">
         <Routes>
           <Route path = "/" element = {<Home></Home>}></Route>
           <Route path = "/favorites" element = {<Favorites></Favorites>}></Route>
