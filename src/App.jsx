@@ -3,12 +3,12 @@ export default function App() {
     <MovieProvider>
       <NavBar />
       {/* FIX: Change 'clasName' to 'className' */}
-      <main className="main-content"> 
+      <div className="main-content"> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
-      </main>
+      </div>
     </MovieProvider>
   );
 }
